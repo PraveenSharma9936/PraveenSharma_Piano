@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body id="body">
+
+    <video src="video/Notes - 55755.mp4"  class="change2" id="gif" autoplay loop muted></video>
+    
+    <div class="piano" id="piano1">
+
+        <div class="piano_upper" id="piano_upper1">
+            <div class="H2">
+                <h2>Praveen Sharma Piano</h2>
+            </div>
+            <div class="button">
+                <button class="piano_upper_bt" id="Theme" onclick="onClickTheme()">Theme</button>
+                <button class="piano_upper_bt" id="mute" onclick="onClickBG()">GIF</button>
+            </div>
+        </div>
+
+        <div class="piano_lower">
+
+            <div class="piano_bt " data-key="65" id="piano_bt1" onclick="onClick(this.id)" >
+                 <kbd>A</kbd> 
+                 <SPAN>PRESS A</SPAN>
+            </div>
+ 
+            <div class="piano_bt_smll piano_bt" data-key="87" id="piano_bt21" onclick="onClick(this.id)" >
+                <kbd>W</kbd> 
+                 <!-- <SPAN>PRESS Z</SPAN> -->
+            </div>           
+
+            <div class="piano_bt" data-key="83" id="piano_bt2" onclick="onClick(this.id)">
+                <kbd>S</kbd> 
+                <SPAN>PRESS S</SPAN>
+            </div>
+
+            <div class="piano_bt_smll piano_bt" data-key="69" id="piano_bt20" onclick="onClick(this.id)">
+                <kbd>E</kbd> 
+                 <!-- <SPAN>PRESS Z</SPAN> -->
+            </div>
+
+            <div class="piano_bt" data-key="68" id="piano_bt3" onclick=" onClick(this.id)">
+                <kbd>D</kbd> 
+                <SPAN>PRESS D</SPAN>
+            </div>
+
+            <div class="piano_bt_smll piano_bt" data-key="82" id="piano_bt19" onclick="onClick(this.id)">
+                <kbd>R</kbd> 
+                 <!-- <SPAN>PRESS Z</SPAN> -->
+            </div>
+
+            <div class="piano_bt" data-key="70" id="piano_bt4" onclick="onClick(this.id)">
+                <kbd>F</kbd> 
+                <SPAN>PRESS F</SPAN>
+            </div>
+
+            <div class="piano_bt_smll piano_bt" data-key="84" id="piano_bt18" onclick="onClick(this.id)">
+                <kbd>T</kbd> 
+                 <!-- <SPAN>PRESS Z</SPAN> -->
+            </div>
+
+            <div class="piano_bt" data-key="71" id="piano_bt5" onclick="onClick(this.id)">
+                <kbd>G</kbd> 
+                <SPAN>PRESS G</SPAN>
+            </div>
+
+            <div class="piano_bt_smll piano_bt" data-key="89" id="piano_bt17" onclick=" onClick(this.id)">
+                <kbd>Y</kbd> 
+                 <!-- <SPAN>PRESS Z</SPAN> -->
+            </div>
+
+            <div class="piano_bt" data-key="72" id="piano_bt6" onclick="onClick(this.id)">
+                <kbd>H</kbd> 
+                <SPAN>PRESS H</SPAN>
+            </div>
+
+            <div class="piano_bt_smll piano_bt" data-key="85" id="piano_bt16" onclick=" onClick(this.id)">
+                <kbd>U</kbd> 
+                 <!-- <SPAN>PRESS Z</SPAN> -->
+            </div>
+
+            <div class="piano_bt" data-key="74" id="piano_bt7" onclick="onClick(this.id)">
+                <kbd>J</kbd> 
+                <SPAN>PRESS J</SPAN>
+            </div>
+
+            <div class="piano_bt_smll piano_bt" data-key="73" id="piano_bt15" onclick=" onClick(this.id)">
+                <kbd>I</kbd> 
+                 <!-- <SPAN>PRESS Z</SPAN> -->
+            </div>
+
+            <div class="piano_bt" data-key="75" id="piano_bt8" onclick="onClick(this.id)">
+                <kbd>K</kbd> 
+                <SPAN>PRESS K</SPAN>
+            </div>
+
+            <div class="piano_bt_smll piano_bt" data-key="79" id="piano_bt14" onclick=" onClick(this.id)">
+                <kbd>O</kbd> 
+                 <!-- <SPAN>PRESS Z</SPAN> -->
+            </div>
+
+            <div class="piano_bt" data-key="76" id="piano_bt9" onclick="onClick(this.id)">
+                <kbd>L</kbd> 
+                <SPAN>PRESS L</SPAN>
+            </div>
+
+            <div class="piano_bt_smll piano_bt" data-key="80" id="piano_bt13" onclick=" onClick(this.id)">
+                <kbd>P</kbd> 
+                 <!-- <SPAN>PRESS Z</SPAN> -->
+            </div>
+
+            <div class="piano_bt" data-key="90" id="piano_bt10" onclick="onClick(this.id)">
+                <kbd>Z</kbd> 
+                <SPAN>PRESS Z</SPAN>
+            </div>
+
+            <div class="piano_bt_smll piano_bt" data-key="81" id="piano_bt12" onclick=" onClick(this.id)">
+                <kbd>Q</kbd> 
+                 <!-- <SPAN>PRESS Z</SPAN> -->
+            </div>
+
+            <div class="piano_bt" data-key="88" id="piano_bt11" onclick="onClick(this.id)">
+                <kbd>X</kbd> 
+                <SPAN>PRESS X</SPAN>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- big_button -->
+
+    <audio data-key="65" src="./audio/mixkit-cartoon-failure-piano-473.wav" ></audio>
+    <audio data-key="83" src="./audio/mixkit-little-piano-game-over-1944.wav"></audio>
+    <audio data-key="68" src="./audio/mixkit-losing-piano-2024.wav"></audio>
+    <audio data-key="70" src="./audio/mixkit-magic-notification-ring-2344.wav"></audio>
+    <audio data-key="71" src="./audio/mixkit-piano-falling-effect-408.wav"></audio>
+    <audio data-key="72" src="./audio/mixkit-rising-harp-music-691.wav"></audio>
+    <audio data-key="74" src="./audio/mixkit-magic-notification-ring-2344.wav"></audio>
+
+    <audio data-key="75" src="./guitar/mixkit-arabian-mystery-harp-notification-2489.wav"></audio>
+    <audio data-key="76" src="./guitar/mixkit-bass-guitar-single-note-2331.wav"></audio>
+    <audio data-key="90" src="./guitar/mixkit-electric-guitar-distorted-slide-2340.wav"></audio>
+    <audio data-key="88" src="./guitar/mixkit-guitar-stroke-down-slow-2339.wav"></audio>
+
+    <!-- small_bt -->
+
+    <audio data-key="87" src="./drums1/mixkit-soft-horror-hit-drum-564.wav"></audio>
+    <audio data-key="69" src="./drums1/mixkit-ominous-drums-appear-228.wav"></audio>
+
+    <audio data-key="82" src="./drums1/mixkit-cinematic-mystery-trailer-drum-hit-546.mp3"></audio>
+    <audio data-key="84" src="./drums1/mixkit-toy-drums-and-bell-ding-560.wav"></audio>
+    <audio data-key="89" src="./drums1/hit-of-orchestral-cymbals-and-bass-drum-14471.mp3"></audio>
+    <audio data-key="85" src="./drums1/mixkit-tribal-dry-drum-558.wav"></audio>
+    <audio data-key="73" src="./drums1/safari-kick-2-37314 (1).mp3"></audio>
+    <audio data-key="79" src="./drums1/mixkit-drum-deep-impact-563.wav"></audio>
+    <audio data-key="80" src="./drums1/mixkit-hand-tribal-drum-562.wav"></audio>
+    <audio data-key="81" src="./drums1/mixkit-metal-hit-drum-sound-550.wav"></audio>
+
+    <!-- javascript -->
+
+     <script src="index.js"></script>  
+
+</body>
+</html>
