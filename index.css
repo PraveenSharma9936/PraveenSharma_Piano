@@ -172,4 +172,7 @@ body {
         width: 180%;
         height: 133%;
     }
+    .change3{
+        display: none;
+    }
 }
